@@ -221,7 +221,7 @@ First, I would like to identify the relationship beween total steps taken in a d
 ggplot(data = combined_data) +
   geom_point(mapping = aes(x = TotalSteps, y = Calories, color = Calories)) + labs(title = "Total Steps vs Calories")
 ```
-<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%201_Total%20Steps%20vs%20Calories.pnghttps://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%201_Total%20Steps%20vs%20Calories.png>
+<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%201_Total%20Steps%20vs%20Calories.png>
 
 The visualization shows that there is a positive correlation between total steps taken in a day and the calories burn. The more steps we taken, the more calories we burn. The marketing analytics team can position this as a way to motivate users who plan to lose weight to walk more.
 
