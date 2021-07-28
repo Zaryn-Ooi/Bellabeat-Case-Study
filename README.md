@@ -221,7 +221,7 @@ First, I would like to identify the relationship beween total steps taken in a d
 ggplot(data = combined_data) +
   geom_point(mapping = aes(x = TotalSteps, y = Calories, color = Calories)) + labs(title = "Total Steps vs Calories")
 ```
-
+<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%201_Total%20Steps%20vs%20Calories.pnghttps://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%201_Total%20Steps%20vs%20Calories.png>
 
 The visualization shows that there is a positive correlation between total steps taken in a day and the calories burn. The more steps we taken, the more calories we burn. The marketing analytics team can position this as a way to motivate users who plan to lose weight to walk more.
 
@@ -240,6 +240,7 @@ ggplot(combined_data, aes(x=TotalMinutesAsleep)) +
   labs(title = "Total Minutes Asleep", x= "Total Minutes Asleep", y="Density")
 ```
 
+<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%202_Total%20Minutes%20Asleep.png>
 
 The histogram shows that most respondents sleep around 419.5 minutes, which is 7 hours a day. This means that most respondents get enough hours of sleep and do not have bad sleeping habits. 
 
@@ -271,6 +272,7 @@ ggplot(combined_data, aes(x=TimeAwakeInBed)) +
   annotate(geom="text", x=371 - 50, y = 0.02, size = 5, label = "max = 371") +
   labs(title = "Time Awake In Bed", x= "Time Awake in Bed", y="Density")
 ```
+<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%203_Time%20Spent%20Awake%20in%20Bed.png>
 
 From the histogram, I discovered that the average time of respondents awake in bed is 39 minutes, which shows that most of the respondents do not have bad sleeping habits. Interesting to note, there is a small amount of respondents who spent 371 minutes time awake in bed, which signals that some of the respondents might suffered from insomnia. 
 
@@ -285,6 +287,7 @@ ggplot(data = combined_data) +
     geom_point(mapping = aes(x = TotalSteps, y = TimeAwakeInBed, color = TimeAwakeInBed)) + annotate("rect", xmin = 0, xmax = 5000, ymin = 300, ymax = 390, alpha = 0.2) + labs(title = "Total Steps vs Time Awake In Bed")
 ```
 
+<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%204_Total%20Steps%20vs%20Time%20Spent%20Awake%20in%20Bed.png>
 
 By looking at this scatterplot, we’re able to identify that users who suffered from insomnia are those who have taken less than 5000 steps a day. We’re also able to see that users who took more than 15000 steps do not spent more than 100 minutes awake in bed, which is less than an hour.This further suggests that these users do not develop bad sleeping habits. 
 
@@ -312,6 +315,8 @@ ggplot(data = TypesofActivityByDate, aes(x = Date)) +
 labs(title = "Most Frequent Types of Activity", x = "Date", y = "Minutes (mean)", color = "Activity") +
     scale_color_manual(values = colors)
 ```
+
+<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%205_Most%20Frequent%20Types%20of%20Activity.png>
 
  By looking at this graph, we can see that the blue line appears to be top among the other lines. This means that sedentary activity is the most frequent type of activity carried out by the users, followed by 'Lightly' activity, 'Very' activity, while the least activity type is 'Fairly' activity. 
  
