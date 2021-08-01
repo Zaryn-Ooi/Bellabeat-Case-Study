@@ -324,10 +324,12 @@ Given that “Sedentary Activity” is the most frequent types of activity carri
 
 
 
-## Phase 6 : Act 
-### 3 Trends in Smart Device Usage
+# Phase 6 : Act 
+### Business Task : Identify Trends in Smart Device Usage
 
-1) Target Audience 
+I have gathered 3 trends from my analysis: 
+
+#### 1) Target Audience 
 
 By analysing the most frequent types of activity as well as the sleep behavior data, I am able to to identify how does the target audience looks like. This can help Bellabeat identify the characteristic of a typical consumer. 
 
@@ -338,7 +340,7 @@ Target Audience of Bellabeat:
  - Have a relatively good amount of sleep but may spend some time awake in bed.
  
 
-2)	Sleep Behavior Analysis
+#### 2)	Sleep Behavior Analysis
 
 Given the fact that out of 33 respondents, only 24 of them record sleep data, this means that not every user will wear Bellabeat devices while sleeping. 
 
@@ -347,7 +349,7 @@ Reason:
 •	Do not like wearing Bellabeat devices while sleeping 
 •	Do not know the importance of tracking sleep data
 
-3) Daily steps count improves overall well being.
+#### 3) Daily steps count improves overall well being.
 
 By analysing the "TotalSteps" data and the "Time Spent Awake in Bed" data,  I found out that higher daily step count leads to better sleep quality. 
 
@@ -355,6 +357,7 @@ By analysing the daily step data and the calorie data, I've aslo discovered that
 
 
 ### Recommendations for Bellabeat App
+After understanding the trends that I have discovered, Bellabeat should start:
 
 1) Target potential customer 
 
@@ -368,7 +371,7 @@ Bellebeat can do this by first tracking the personal metrics of the users. For e
 
 For users who wants to lose weight, the app can send them notifications to remind these users to do more exercise to burn their calories. 
 
-For users who do not record sleep data, Bellabeat App should send notifications to users to remind them to wear Bellabeat devices while sleeping in order to track their sleep data, combined with knowledge of the importance of tracking sleeping data.
+For users who do not record sleep data, Bellabeat App should send notifications to users to remind them to wear Bellabeat devices while sleeping in order to track their sleep data, combined with knowledge of the importance of tracking sleeping data. In addition, Bellabeat can allow users who used Bellabeat app to track their sleep data to earn and accrue reward points, which are then redeemable from wide range of gifts. 
 
 
 
