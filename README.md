@@ -212,7 +212,7 @@ Now that I have merged the two datasets, there will only be 24 respondents.
 
 
 
-## Phase 4 & Phase5 : Analyze & Share 
+# Phase 4 & Phase5 : Analyze & Share 
 
 ### Visualization 1 - Total Steps vs Calories
 
