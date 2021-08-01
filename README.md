@@ -212,7 +212,7 @@ Now that I have merged the two datasets, there will only be 24 respondents.
 
 
 
-## Phase 4 & Phase5 : Analyze & Share 
+# Phase 4 & Phase5 : Analyze & Share 
 
 ### Visualization 1 - Total Steps vs Calories
 
@@ -221,7 +221,7 @@ First, I would like to identify the relationship beween total steps taken in a d
 ggplot(data = combined_data) +
   geom_point(mapping = aes(x = TotalSteps, y = Calories, color = Calories)) + labs(title = "Total Steps vs Calories")
 ```
-
+<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%201_Total%20Steps%20vs%20Calories.png>
 
 The visualization shows that there is a positive correlation between total steps taken in a day and the calories burn. The more steps we taken, the more calories we burn. The marketing analytics team can position this as a way to motivate users who plan to lose weight to walk more.
 
@@ -240,6 +240,7 @@ ggplot(combined_data, aes(x=TotalMinutesAsleep)) +
   labs(title = "Total Minutes Asleep", x= "Total Minutes Asleep", y="Density")
 ```
 
+<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%202_Total%20Minutes%20Asleep.png>
 
 The histogram shows that most respondents sleep around 419.5 minutes, which is 7 hours a day. This means that most respondents get enough hours of sleep and do not have bad sleeping habits. 
 
@@ -271,6 +272,7 @@ ggplot(combined_data, aes(x=TimeAwakeInBed)) +
   annotate(geom="text", x=371 - 50, y = 0.02, size = 5, label = "max = 371") +
   labs(title = "Time Awake In Bed", x= "Time Awake in Bed", y="Density")
 ```
+<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%203_Time%20Spent%20Awake%20in%20Bed.png>
 
 From the histogram, I discovered that the average time of respondents awake in bed is 39 minutes, which shows that most of the respondents do not have bad sleeping habits. Interesting to note, there is a small amount of respondents who spent 371 minutes time awake in bed, which signals that some of the respondents might suffered from insomnia. 
 
@@ -285,6 +287,7 @@ ggplot(data = combined_data) +
     geom_point(mapping = aes(x = TotalSteps, y = TimeAwakeInBed, color = TimeAwakeInBed)) + annotate("rect", xmin = 0, xmax = 5000, ymin = 300, ymax = 390, alpha = 0.2) + labs(title = "Total Steps vs Time Awake In Bed")
 ```
 
+<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%204_Total%20Steps%20vs%20Time%20Spent%20Awake%20in%20Bed.png>
 
 By looking at this scatterplot, we’re able to identify that users who suffered from insomnia are those who have taken less than 5000 steps a day. We’re also able to see that users who took more than 15000 steps do not spent more than 100 minutes awake in bed, which is less than an hour.This further suggests that these users do not develop bad sleeping habits. 
 
@@ -313,16 +316,20 @@ labs(title = "Most Frequent Types of Activity", x = "Date", y = "Minutes (mean)"
     scale_color_manual(values = colors)
 ```
 
+<https://github.com/Zaryn-Ooi/Bellabeat-Case-Study/blob/main/Viz%205_Most%20Frequent%20Types%20of%20Activity.png>
+
  By looking at this graph, we can see that the blue line appears to be top among the other lines. This means that sedentary activity is the most frequent type of activity carried out by the users, followed by 'Lightly' activity, 'Very' activity, while the least activity type is 'Fairly' activity. 
  
 Given that “Sedentary Activity” is the most frequent types of activity carried out by the users, this means that most of the users are working adults who spent long hours sitting in front of the computer/ meeting (Sedentary). And they also spent some time doing some house chores after work (Lightly).
 
 
 
-## Phase 6 : Act 
-### 3 Trends in Smart Device Usage
+# Phase 6 : Act 
+### Business Task : Identify Trends in Smart Device Usage
 
-1) Target Audience 
+I have gathered 3 trends from my analysis: 
+
+#### 1) Target Audience 
 
 By analysing the most frequent types of activity as well as the sleep behavior data, I am able to to identify how does the target audience looks like. This can help Bellabeat identify the characteristic of a typical consumer. 
 
@@ -333,7 +340,7 @@ Target Audience of Bellabeat:
  - Have a relatively good amount of sleep but may spend some time awake in bed.
  
 
-2)	Sleep Behavior Analysis
+#### 2)	Sleep Behavior Analysis
 
 Given the fact that out of 33 respondents, only 24 of them record sleep data, this means that not every user will wear Bellabeat devices while sleeping. 
 
@@ -342,7 +349,7 @@ Reason:
 •	Do not like wearing Bellabeat devices while sleeping 
 •	Do not know the importance of tracking sleep data
 
-3) Daily steps count improves overall well being.
+#### 3) Daily steps count improves overall well being.
 
 By analysing the "TotalSteps" data and the "Time Spent Awake in Bed" data,  I found out that higher daily step count leads to better sleep quality. 
 
@@ -350,6 +357,7 @@ By analysing the daily step data and the calorie data, I've aslo discovered that
 
 
 ### Recommendations for Bellabeat App
+After understanding the trends that I have discovered, Bellabeat should start:
 
 1) Target potential customer 
 
@@ -363,7 +371,7 @@ Bellebeat can do this by first tracking the personal metrics of the users. For e
 
 For users who wants to lose weight, the app can send them notifications to remind these users to do more exercise to burn their calories. 
 
-For users who do not record sleep data, Bellabeat App should send notifications to users to remind them to wear Bellabeat devices while sleeping in order to track their sleep data, combined with knowledge of the importance of tracking sleeping data.
+For users who do not record sleep data, Bellabeat App should send notifications to users to remind them to wear Bellabeat devices while sleeping in order to track their sleep data, combined with knowledge of the importance of tracking sleeping data. In addition, Bellabeat can allow users who used Bellabeat app to track their sleep data to earn and accrue reward points, which are then redeemable from wide range of gifts. 
 
 
 
