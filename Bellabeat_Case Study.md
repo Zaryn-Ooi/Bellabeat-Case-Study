@@ -26,6 +26,7 @@ To identify trends in smart devices usage to help Bellabeat make marketing strat
 
 
 
+
 # Phase 2 : Prepare
 ### Data Source
 #### [Fitbit Fitness Tracker Data](https://www.kaggle.com/arashnic/fitbit)
@@ -56,6 +57,7 @@ For this analysis, i have selected 2 datasets that provided daily activity and t
 #### Files selected: 
   - dailyActivity_merged.csv
   - sleepDay_merged.csv
+
 
 
 
@@ -212,6 +214,7 @@ Now that I have merged the two datasets, there will only be 24 respondents.
 
 
 
+
 # Phase 4 & Phase5 : Analyze & Share 
 
 ### Visualization 1 - Total Steps vs Calories
@@ -316,6 +319,7 @@ labs(title = "Most Frequent Types of Activity", x = "Date", y = "Minutes (mean)"
  By looking at this graph, we can see that the blue line appears to be top among the other lines. This means that sedentary activity is the most frequent type of activity carried out by the users, followed by 'Lightly' activity, 'Very' activity, while the least activity type is 'Fairly' activity. 
  
 Given that “Sedentary Activity” is the most frequent types of activity carried out by the users, this means that most of the users are working adults who spent long hours sitting in front of the computer/ meeting (Sedentary). And they also spent some time doing some house chores after work (Lightly).
+
 
 
 
