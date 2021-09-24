@@ -28,10 +28,10 @@ To identify trends in smart devices usage to help Bellabeat make marketing strat
 
 # Phase 2 : Prepare
 ### Data Source
-Fitbit Fitness Tracker Data (CC0: Public Domain, dataset made available through Mobius)
+#### [Fitbit Fitness Tracker Data](https://www.kaggle.com/arashnic/fitbit)
 
-<https://www.kaggle.com/arashnic/fitbit>
 
+### Data Content
 This data set contains personal fitness tracker from thirty Fitbit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore users’ habits.
 
 ### Bias/ Credibility (ROCCC Analysis) 
